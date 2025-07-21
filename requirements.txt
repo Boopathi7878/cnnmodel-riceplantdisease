@@ -2,4 +2,4 @@ pandas
 streamlit
 tensorflow
 numpy
-PIL
+Pillow
