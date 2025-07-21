@@ -7,7 +7,7 @@ from PIL import Image
 print("Libraries are Imported")
 
 
-model=load_model(r"E:\\Codes\Projects\ML\Leaf_Disease\models\rice_disease_cnn.h5")
+model=load_model('models\rice_disease_cnn.h5')
 
 class_lables = ['leafscald','leafblast','brownspot','bacterialleafblight','healthy']
 
