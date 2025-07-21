@@ -1,4 +1,4 @@
-import streamlit as st
+/import streamlit as st
 import numpy as np
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
@@ -7,7 +7,7 @@ from PIL import Image
 print("Libraries are Imported")
 
 
-model=load_model('models\rice_disease_cnn.h5')
+model=load_model('models/rice_disease_cnn.h5')
 
 class_lables = ['leafscald','leafblast','brownspot','bacterialleafblight','healthy']
 
